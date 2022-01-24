@@ -27,7 +27,7 @@
 #define LIST_INCREMENT 16
   /*********************************************************************
    * @chujian(cn) 配置存储空间的初始分配量128，增量16，单位是sizeof(ElemType)
-   * @chujian(en) The initial allocation of configuration storage space is 100, in increments of 10, and the unit is sizeof(ElemType)
+   * @chujian(en) The initial allocation of configuration storage space is 128, in increments of 16, and the unit is sizeof(ElemType)
    */
 
 typedef int Boolean;
