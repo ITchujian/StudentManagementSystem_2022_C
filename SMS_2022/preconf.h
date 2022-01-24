@@ -1,11 +1,11 @@
 #pragma once
 /*********************************************************************
- * ×ªÔØÇë×¢Ã÷À´Ô´/Reprint please indicate the source
+ * è½¬è½½è¯·æ³¨æ˜æ¥æº/Reprint please indicate the source
  * @FileName preconf.h
- * @Description Ô¤ÅäÖÃÎÄ¼ş/pre-configured header files
+ * @Description é¢„é…ç½®æ–‡ä»¶/pre-configured header files
  * @History
  * version      author      data       introduction and operations
- *  1.0         ³õ¼û     2022-01-23             Create
+ *  1.0         åˆè§     2022-01-23             Create
  *  ***         ***      ****-**-**             *******
  */
 
@@ -19,14 +19,14 @@
 #include <io.h>
 #include <direct.h>
  /*********************************************************************
-  * @chujian(cn) ÒıÈë±ê×¼¿âÍ·ÎÄ¼ş
+  * @chujian(cn) å¼•å…¥æ ‡å‡†åº“å¤´æ–‡ä»¶
   * @chujian(en) Import standard library headers
   */
 
 #define LIST_INIT_SIZE 128
 #define LIST_INCREMENT 16
   /*********************************************************************
-   * @chujian(cn) ÅäÖÃ´æ´¢¿Õ¼äµÄ³õÊ¼·ÖÅäÁ¿100£¬ÔöÁ¿10£¬µ¥Î»ÊÇsizeof(ElemType)
+   * @chujian(cn) é…ç½®å­˜å‚¨ç©ºé—´çš„åˆå§‹åˆ†é…é‡128ï¼Œå¢é‡16ï¼Œå•ä½æ˜¯sizeof(ElemType)
    * @chujian(en) The initial allocation of configuration storage space is 100, in increments of 10, and the unit is sizeof(ElemType)
    */
 
@@ -40,8 +40,8 @@ typedef int Status;
 #define INFEASIBLE -1
 #define OVERFLOWED -2
 /*********************************************************************
- * @chujian(cn) Í¨¹ıÃ¶¾Ù£¬¶¨Òå²¼¶ûĞÍ¡¢º¯Êı·µ»Ø×´Ì¬Öµ
- * @chujian(en) Through enumeration, define boolean type, function return status value
+ * @chujian(cn) å®šä¹‰å¸ƒå°”å‹ã€å‡½æ•°è¿”å›çŠ¶æ€å€¼
+ * @chujian(en) Define boolean type, function return status value
  */
 
 typedef struct
@@ -57,7 +57,7 @@ typedef struct
 	float sum_score;
 } ElemType;
 /*********************************************************************
- * @chujian(cn) ¶¨ÒåÑ§ÉúĞÅÏ¢½á¹¹Ìå£¬°üº¬ĞÕÃû¡¢Ñ§ºÅµÈ
+ * @chujian(cn) å®šä¹‰å­¦ç”Ÿä¿¡æ¯ç»“æ„ä½“ï¼ŒåŒ…å«å§“åã€å­¦å·ç­‰
  * @chujian(en) Define the student information structure, including name, student ID, etc.
  */
 
@@ -68,7 +68,7 @@ typedef struct
 	int list_size;
 } SqList;
 /*********************************************************************
- * @chujian(cn) Ë³Ğò´æ´¢½á¹¹
+ * @chujian(cn) é¡ºåºå­˜å‚¨ç»“æ„
  * @chujian(en) Dynamic allocation sequential storage structure of linear table
  */
 
@@ -81,6 +81,6 @@ typedef struct
 } SysConfig;
 SysConfig config_bin = {};
 /*********************************************************************
- * @chujian(cn) ±àÒëÍâµÄÉèÖÃÖµ
+ * @chujian(cn) ç¼–è¯‘å¤–çš„è®¾ç½®å€¼
  * @chujian(en) Dynamic allocation sequential storage structure of linear table
  */
