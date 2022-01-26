@@ -1,6 +1,7 @@
 # Thanks for referring to the C language project of `First Encounter` - Student Management System 2022
 
 It is the first open-source project of a student management system written in C language on GitHub in 2022. It is suitable for C language beginners and C language candidates for reference. It can be used by educational institutions and schools with minor modifications.
+Note: Please make sure to copy `config.bin` to the SMSdir folder in the same exe file directory when you run it for the first time.
 
 ---
 
