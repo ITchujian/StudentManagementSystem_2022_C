@@ -10,7 +10,6 @@
  */
 
 #include "kernel_list.h"
-
  /*********************************************************************
   * @chujian(cn) 引入自定义头文件
   * @chujian(en) Import custom header files
